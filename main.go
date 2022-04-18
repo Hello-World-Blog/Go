@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-// Mobile details
+// Mobile structure with well defined properties.
 type Mobile struct {
 	Model        string `json:"model"`
 	Manufacturer string `json:"manufacturer"`
@@ -14,6 +14,7 @@ type Mobile struct {
 }
 
 func main() {
+	// JSON string
 	s1 := `{
 		"model": "S20 FE",
 		"manufacturer": "Samsung",
